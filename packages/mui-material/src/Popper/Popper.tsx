@@ -49,6 +49,7 @@ Popper.propTypes /* remove-proptypes */ = {
    * or a function that returns either.
    * It's used to set the position of the popper.
    * The return value will passed as the reference object of the Popper instance.
+   * Doesn't work with transition prop!
    */
   anchorEl: PropTypes /* @typescript-to-proptypes-ignore */.oneOfType([
     HTMLElementType,
